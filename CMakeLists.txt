@@ -1634,7 +1634,7 @@ qt_add_executable(librecad
 if(APPLE)
     set_target_properties(librecad PROPERTIES
         MACOSX_BUNDLE TRUE
-        MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/librecad/src/macos/Info.plist"
+        MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/librecad/src/Info.plist.app"
     )
 endif()
 
